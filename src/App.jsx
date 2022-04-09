@@ -37,7 +37,6 @@ function App() {
       <button className='add' onClick={handeladd} >Add</button>
       <button className='sub' onClick={handelsub}>Sub</button>
       <button className='dbl' onClick={handeldbl}>Double</button>
-      {/* <div> Number is {counter % 2 === 0 ? 'Even' : 'odd' } </div> */}
       <h3 className={`${counter%2===0 ? "even" : "odd"}`}>Number is {counter % 2 === 0 ? 'Even' : 'odd' } </h3>
 
     </div>

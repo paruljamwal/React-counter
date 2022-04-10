@@ -43,11 +43,13 @@
   }
 }
 .red{
-  background-color:red
+  
+  color:red
 }
 
 .green{
-  background-color: green;
+
+  color:green
 }
 
 .add ,.sub , .dbl{

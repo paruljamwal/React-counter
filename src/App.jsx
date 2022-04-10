@@ -32,8 +32,8 @@ function App() {
    
     <div className="App">
      
-      <div className={counter%2===0 ? 'red' : 'green'}></div>
-      <h1>counter:{counter}</h1>
+      {/* <div ></div> */}
+      <h1 className={counter%2===0 ? 'red' : 'green'}>counter:{counter}</h1>
       <button className='add' onClick={handeladd} >Add</button>
       <button className='sub' onClick={handelsub}>Sub</button>
       <button className='dbl' onClick={handeldbl}>Double</button>
